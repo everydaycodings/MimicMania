@@ -39,7 +39,7 @@ class DownloadModels():
 
         dict_list = os.listdir(path=model_path)
 
-        if len(dict_list) == 0:
+        if len(dict_list) == 1:
 
             # Download the ZIP file to a temporary folder
             response = requests.get(url, stream=True)
