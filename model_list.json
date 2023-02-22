@@ -11,16 +11,8 @@
 
     "American English": [
       {
-        "name": "speedy-speech",
-        "model_path": "tts_models--en--ljspeech--speedy-speech"
-      },
-      {
         "name": "DCA",
         "model_path": "tts_models--en--ljspeech--tacotron2-DCA"
-      },
-      {
-        "name": "DDC",
-        "model_path": "tts_models--en--ljspeech--tacotron2-DDC"
       }
     ],
 
