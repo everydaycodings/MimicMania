@@ -1,0 +1,105 @@
+{
+  "labels": ["Multi Language", "American English", "United Kingdom", "Japanese", "Italian"],
+  "custom_voice": ["Chales Hoskinson"],
+  "data": {
+    "Multi Language": [
+      {
+        "name": "Multi Language",
+        "model_path": "tts_models--multilingual--multi-dataset--your_tts"
+      }
+    ],
+
+    "American English": [
+      {
+        "name": "c50",
+        "model_path": "tts_models--en--blizzard2013--capacitron-t2-c50"
+      },
+      {
+        "name": "c150",
+        "model_path": "tts_models--en--blizzard2013--capacitron-t2-c150_v2"
+      },
+      {
+        "name": "tacotron2",
+        "model_path": "tts_models--en--ek1--tacotron2"
+      },
+      {
+        "name": "fast_pitch",
+        "model_path": "tts_models--en--ljspeech--fast_pitch"
+      },
+      {
+        "name": "glow_tts",
+        "model_path": "tts_models--en--ljspeech--glow-tts"
+      },
+      {
+        "name": "neutral-hmm",
+        "model_path": "tts_models--en--ljspeech--neural_hmm"
+      },
+      {
+        "name": "overflow",
+        "model_path": "tts_models--en--ljspeech--overflow"
+      },
+      {
+        "name": "speedy-speech",
+        "model_path": "tts_models--en--ljspeech--speedy-speech"
+      },
+      {
+        "name": "DCA",
+        "model_path": "tts_models--en--ljspeech--tacotron2-DCA"
+      },
+      {
+        "name": "DDC",
+        "model_path": "tts_models--en--ljspeech--tacotron2-DDC"
+      },
+      {
+        "name": "DDS-PH",
+        "model_path": "tts_models--en--ljspeech--tacotron2-DDC_ph"
+      },
+      {
+        "name": "Vits",
+        "model_path": "tts_models--en--ljspeech--vits"
+      },
+      {
+        "name": "DDCv2",
+        "model_path": "tts_models--en--sam--tacotron-DDC"
+      },
+      {
+        "name": "fast_pitchv2",
+        "model_path": "tts_models--en--vctk--fast_pitch"
+      },
+      {
+        "name": "Vitsv2",
+        "model_path": "tts_models--en--vctk--vits"
+      }
+    ],
+
+    "United Kingdom": [
+      {
+        "name": "Mai-Glow",
+        "model_path": "tts_models--uk--mai--glow-tts"
+      }
+    ],
+    "Japanese": [
+      {
+        "name": "DDC",
+        "model_path": "tts_models--ja--kokoro--tacotron2-DDC"
+      }
+    ],
+    "Italian": [
+      {
+        "name": "Male TTS",
+        "model_path": "tts_models--it--mai_male--glow-tts"
+      },
+      {
+        "name": "Female TTS",
+        "model_path": "tts_models--it--mai_female--glow-tts"
+      }
+    ],
+    "Popular Person": [
+      {
+        "name": "Chales Hoskinson",
+        "model_path": "popular_person/popular_person_model",
+        "model_voice": "popular_person/popular_person_voice/chales_hoskinson.wav"
+      }
+    ]
+  }
+}
