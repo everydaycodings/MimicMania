@@ -1,3 +1,5 @@
 [theme]
 base="dark"
-max_request_size = 1028
+
+[server]
+maxUploadSize = 1028
