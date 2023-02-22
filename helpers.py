@@ -39,12 +39,11 @@ class DownloadModels():
 
         dict_list = os.listdir(path=model_path)
 
-        if len(dict_list) == 0:
+        if len(dict_list) == 1:
 
             # Download the ZIP file to a temporary folder
             response = requests.get(url, stream=True)
             total_size_in_bytes = int(response.headers.get('content-length', 0))
-            st.write("yes")
             block_size = 1024  # 1 Kibibyte
             progress_bar = tqdm(total=total_size_in_bytes, unit='iB', unit_scale=True)
 
