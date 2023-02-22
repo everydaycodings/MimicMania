@@ -33,7 +33,7 @@ class DownloadModels():
 
 
         # Set the URL of the ZIP file on Google Drive
-        url = "https://drive.google.com/u/0/uc?id=1G-TqQgnXIPSpWUFOXfp8YJJstrTZBuAd&export=download&confirm=t&uuid=4c3133fc-e98e-482a-8608-ca52695262c4&at=ALgDtsyWBzC2k8xrlbCo3o1QAqKW:1677093787189"
+        url = "https://drive.google.com/u/0/uc?id=1iltFKo48DctOzF8Sm4Bcn3GS9GEXgYvg&export=download&confirm=t&uuid=dc3156e7-054a-43ff-82c0-ab96eb98f433&at=ALgDtszFJkCFJTfums9pB4SaqwMC:1677095101169"
         temp_path = 'temp.zip'
         model_path = "language_model"
 
