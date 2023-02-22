@@ -71,7 +71,7 @@ class DownloadModels():
 
 
 
-
+@st.cache_resource
 class ProcessModelList():
 
 
@@ -151,13 +151,13 @@ class ProcessModelList():
 
                 return model_path
 
-    @st.cache_resource
+    
     def multi_language_selected(self, model_path):
 
         tts = TTS(model_path="language_model/{}/model_file.pth".format(str(model_path)), config_path="language_model/{}/config.json".format(str(model_path)))
         return tts.speakers, tts.languages
 
-    @st.cache_resource
+    
     def get_multi_speaker_model(self, model_path):
 
         search_model_path = "language_model/{}".format(str(model_path))
@@ -170,7 +170,7 @@ class ProcessModelList():
         else:
             return False, None
 
-
+@st.cache_resource
 class ConvertTextToSpeech():
 
     def __init__(self, model_name, model_path, text):
@@ -179,7 +179,7 @@ class ConvertTextToSpeech():
         self.model_path = model_path
         self.text = text
     
-    @st.cache_resource
+    
     def convert_text_to_speech(self, speaker_id=None):
 
         tts = TTS(model_path="language_model/{}/model_file.pth".format(str(self.model_path)), config_path="language_model/{}/config.json".format(str(self.model_path)))
@@ -188,7 +188,7 @@ class ConvertTextToSpeech():
         else:
             tts.tts_to_file(text=self.text, speaker=speaker_id, file_path="output/output.wav")
 
-    @st.cache_resource
+    
     def convert_text_to_speech_multi_langauge(self, speaker, language, model_name, selected_langauge):
 
         if ProcessModelList().get_popular_voice_list(model_name=model_name):
@@ -209,7 +209,7 @@ class ConvertTextToSpeech():
 
 
 
-
+@st.cache_resource
 class AudioClonning():
 
     def __init__(self, audio, audio_filename, text, emotion):
@@ -247,7 +247,7 @@ class AudioClonning():
 
             return clonner_file_path
 
-    @st.cache_resource
+    
     def convert_text_to_speech(self):
 
         clonner_audio = self.check_audio_file_format()
