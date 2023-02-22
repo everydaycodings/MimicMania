@@ -3,12 +3,13 @@ from helpers import ProcessModelList, ConvertTextToSpeech, AudioClonning, downlo
 import io
 
 
-
+st.sidebar.title("Welcome to :blue[MinicMania]")
 sidebar_options = ["Text To Speech", "Voice Clonning"]
 choice = st.sidebar.selectbox(label="Select Your Usecase: ", options=sidebar_options)
 
 
 if choice == sidebar_options[0]:
+    st.title("Convert your Text to Speech")
     model_list = ProcessModelList()
 
     selected_language = st.selectbox("Select The Language: ", options=model_list.get_langauge_labels())
@@ -47,7 +48,8 @@ if choice == sidebar_options[0]:
 
 
 elif choice == sidebar_options[1]:
-
+    st.title("Clone Anyone's Voice")
+    st.subheader("The Better the quality and duration of the data the more realistic the sound will be.")
     uploaded_music = st.file_uploader(label="Upload Your Audio File: ", type=["mp3", "wav"])
     text = st.text_area(label="Enter The text you want to convert: ")
     emotion = "Neutral"#st.selectbox(label="Select What will the voice emotion: ", options=["Neutral", "Happy", "Sad", "Angry", "Surprise", "Dull"])
