@@ -1,8 +1,8 @@
 import streamlit as st
-from helpers import ProcessModelList, ConvertTextToSpeech, AudioClonning, download_audio_file
+from helpers import ProcessModelList, ConvertTextToSpeech, AudioClonning, download_audio_file, DownloadModels
 import io
 
-
+DownloadModels().download_models()
 
 sidebar_options = ["Text To Speech", "Voice Clonning"]
 choice = st.sidebar.selectbox(label="Select Your Usecase: ", options=sidebar_options)
