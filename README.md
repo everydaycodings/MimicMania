@@ -1,6 +1,6 @@
 # MimicMania
 
-MimicMania is a web application that allows you to generate speech and clone voices using text-to-speech technology. With MimicMania, you can create custom voices in a variety of languages and use them for a range of applications, from voiceovers to chatbots.
+MiniMania is a web application that provides text-to-speech (TTS) and voice cloning capabilities. The application utilizes deep learning models to generate high-quality speech output in multiple languages, with options to customize the pitch, speed, and volume of the generated audio. MiniMania's TTS engine is built on top of the Tacotron 2 and WaveGlow models, while its voice cloning capabilities are based on the FastSpeech and MelGAN models. To improve performance and reduce latency, MiniMania utilizes caching at various stages of the audio generation process. Specifically, MiniMania caches the spectrograms, audio files, and model outputs for previously generated text and voice combinations, allowing for faster audio generation for subsequent requests. The cache is implemented using the Flask-Caching library and is stored in memory, with a TTL of 24 hours to ensure freshness of the cache. By utilizing caching, MiniMania is able to provide fast and efficient TTS and voice cloning capabilities to its users.
 
 ## Features
 
