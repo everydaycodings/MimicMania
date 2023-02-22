@@ -2,14 +2,14 @@ docs/
 images/
 notebooks/
 language_model/*/
-output/*/
+output/*.wav
 recipes/
 tests/
 test.ipynb
 extras/
 .ipynb_checkpoints/
 test_sound/
-clonner_output/*/
+clonner_output/*wav
 language_model_test/
 downloader.ipynb
 __pycache__
