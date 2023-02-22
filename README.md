@@ -24,7 +24,7 @@ Additionally, you will also need to download the required module and Python depe
 
 To install and run MimicMania, follow these steps:
 
-1. Clone this repository to your local machine using `git clone https://github.com/YourUserName/MimicMania.git`
+1. Clone this repository to your local machine using `git clone https://github.com/everydaycodings/MimicMania.git`
 2. Navigate to the project directory using `cd MimicMania`
 3. Run the command `python setup.py` to download the required modules. This process may take some time, as the required module is around 6 GB.
 4. Run the command `pip install -r requirements.txt` to download all the Python dependencies.
@@ -38,7 +38,7 @@ If you'd like to contribute to MimicMania, please fork the repository and create
 
 ## Credits
 
-MimicMania was developed by [Kumar Saksham(everydaycodings)] with the help of various open source resources. 
+MimicMania was developed by **Kumar Saksham(everydaycodings)** with the help of various open source resources. 
 
 We would like to extend a special thank you to [coqui-ai/TTS](https://github.com/coqui-ai/TTS) for providing their text-to-speech model as a resource for our project.
 
