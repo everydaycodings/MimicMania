@@ -10,6 +10,12 @@ MiniMania is a web application that provides text-to-speech (TTS) and voice clon
 - Customizable parameters: Users can adjust the speed, pitch, and volume of the generated speech to fit their specific needs.
 - Voice cloning: MimicMania's voice cloning technology allows users to clone their own voice, making it easier than ever to create personalized voiceovers.
 
+
+## WebApp Demo
+
+Click the Mega Link To see the Demo: [LinK]("https://mega.nz/file/5ShTiARB#aO4ecf518xnBnj1HKx98y4vw4ozQwSRFgKLifxFJO-E")
+
+
 ## Things to Be Downloaded
 
 Before you can install and use MimicMania, you will need to download and install the following:
