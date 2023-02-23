@@ -13,7 +13,7 @@ MiniMania is a web application that provides text-to-speech (TTS) and voice clon
 
 ## WebApp Demo
 
-Click the Mega Link To see the Demo: [LinK]("https://mega.nz/file/5ShTiARB#aO4ecf518xnBnj1HKx98y4vw4ozQwSRFgKLifxFJO-E")
+Click the Mega Link To see the Demo: [Link For The Video](https://mega.nz/file/5ShTiARB#aO4ecf518xnBnj1HKx98y4vw4ozQwSRFgKLifxFJO-E)
 
 
 ## Things to Be Downloaded
