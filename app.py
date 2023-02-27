@@ -3,7 +3,7 @@ from helpers import ProcessModelList, ConvertTextToSpeech, AudioClonning, downlo
 import io
 
 
-st.sidebar.title("Welcome to :blue[MinicMania]")
+st.sidebar.title("Welcome to :blue[MimicMania]")
 sidebar_options = ["Text To Speech", "Voice Clonning"]
 choice = st.sidebar.selectbox(label="Select Your Usecase: ", options=sidebar_options)
 
